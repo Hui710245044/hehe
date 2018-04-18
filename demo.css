@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+#birds{
+    width:111px;
+    height:111px;
+    position:absolute;
+}
+body{
+    overflow:hidden;/*隐藏滚动条*/
+}
+.direction-37{
+    transform:rotateY(180deg);/*沿着y轴旋转180度*/
+}
+.direction-38{
+    transform:rotate(-60deg);/*倾斜-60度*/
+}
+.direction-40{
+    transform:rotate(60deg);/*倾斜60度*/
+}
